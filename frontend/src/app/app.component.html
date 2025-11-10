@@ -1,0 +1,26 @@
+<!-- This is our new Main Layout -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a class="nav-brand" routerLink="/">Chat App</a>
+
+    <!-- This will be our main navigation -->
+    <div class="nav-links">
+      <!--
+        routerLinkActive="active-link" will add the 'active-link'
+        class when the link's route is active.
+      -->
+      <a class="nav-link" routerLink="/login" routerLinkActive="active-link">Login</a>
+      <a class="nav-link" routerLink="/register" routerLinkActive="active-link">Register</a>
+      <a class="nav-link" routerLink="/chat" routerLinkActive="active-link">Chat</a>
+    </div>
+  </div>
+</nav>
+
+<!--
+  This is the MOST important part.
+  Angular will inject the active component (Login, Register, or Chat)
+  right here, based on the URL.
+-->
+<main>
+  <router-outlet></router-outlet>
+</main>

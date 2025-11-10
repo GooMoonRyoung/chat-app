@@ -1,0 +1,26 @@
+<p>register.component works!</p>
+<div class="auth-container">
+  <div class="auth-card">
+    <h2 class="auth-title">Create Account</h2>
+    <p class="auth-subtitle">Get started with your new chat account</p>
+
+    <!-- We will make this a real form on Day 10 -->
+    <div class="form-placeholder">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Choose a username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Create a password">
+      </div>
+      <button class="auth-button">Create Account</button>
+    </div>
+
+    <div class="auth-link">
+      <span>Already have an account? </span>
+      <!-- Use routerLink to navigate back to the login page -->
+      <a routerLink="/login">Log In</a>
+    </div>
+  </div>
+</div>

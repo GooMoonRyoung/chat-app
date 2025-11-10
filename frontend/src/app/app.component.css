@@ -1,0 +1,45 @@
+/* Make the main container centered */
+.main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f7f6;
+}
+
+.users-list {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  width: 80%;
+  max-width: 600px;
+}
+
+.users-list h2 {
+  font-size: 1.2em;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.users-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.users-list li {
+  padding: 10px 5px;
+  border-bottom: 1px solid #eee;
+  font-family: monospace;
+  font-size: 1.1em;
+}
+
+.users-list li:last-child {
+  border-bottom: none;
+}

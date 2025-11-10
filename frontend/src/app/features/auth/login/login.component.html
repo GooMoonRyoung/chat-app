@@ -1,0 +1,26 @@
+<p>login.component works!</p>
+<div class="auth-container">
+  <div class="auth-card">
+    <h2 class="auth-title">Welcome Back!</h2>
+    <p class="auth-subtitle">Log in to your account</p>
+
+    <!-- We will make this a real form on Day 8 -->
+    <div class="form-placeholder">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+      </div>
+      <button class="auth-button">Login</button>
+    </div>
+
+    <div class="auth-link">
+      <span>Don't have an account? </span>
+      <!-- Use routerLink to navigate to the register page -->
+      <a routerLink="/register">Sign Up</a>
+    </div>
+  </div>
+</div>
