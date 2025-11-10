@@ -1,0 +1,29 @@
+--- General ---
+
+.DS_Store
+*.log
+
+--- IntelliJ IDE ---
+
+.idea/
+*.iml
+out/
+
+--- Angular / Node ---
+
+node_modules/
+dist/
+.npm
+npm-debug.log
+.angular/
+
+--- Java / Maven ---
+
+target/
+.mvn/
+*.jar
+
+--- Go ---
+
+*.exe
+*.test
